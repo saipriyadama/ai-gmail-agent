@@ -1,6 +1,6 @@
 # 🤖 AI Gmail Agent
 
-> Autonomous email management powered by Claude AI - Reads emails, sends WhatsApp alerts, auto-replies intelligently.
+ Autonomous email management powered by Claude AI - Reads emails, sends WhatsApp alerts, auto-replies intelligently.
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![Claude AI](https://img.shields.io/badge/Claude-AI-orange)](https://www.anthropic.com/)
@@ -43,7 +43,6 @@ From first run on real Gmail inbox:
 - **Streamlit** - Web dashboard
 - **GitHub Actions** - Cloud automation (runs 24/7)
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
@@ -56,8 +55,6 @@ From first run on real Gmail inbox:
 | `.gitignore` | Git ignore rules |
 | `README.md` | This file |
 
-
-## 🚀 How It Works
 
 ## 🚀 How It Works
 
