@@ -33,7 +33,7 @@ From first run on real Gmail inbox:
 
 <img width="823" height="593" alt="image" src="https://github.com/user-attachments/assets/798f8181-a64a-48e9-bacb-d8a884a35853" />
 
-<img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/cfc6f9d1-68f6-4385-a9fb-9f063ae49513" />
+<img width="823" height="593" alt="image" src="https://github.com/user-attachments/assets/cfc6f9d1-68f6-4385-a9fb-9f063ae49513" />
 
 
 
