@@ -1,0 +1,18 @@
+# Secrets - NEVER commit these
+credentials.json
+token.json
+whatsapp_config.json
+.env
+
+# Logs
+agent_log.txt
+agent_error.txt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
