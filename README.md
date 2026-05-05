@@ -45,48 +45,34 @@ From first run on real Gmail inbox:
 
 ## 📁 Project Structure
 
-ai-gmail-agent/
-├── gmail_agent_real.py      # Main agent (reads, analyzes, acts)
-├── dashboard.py             # Streamlit dashboard
-├── agent_rules.json         # Your custom rules
-├── requirements.txt         # Python dependencies
-├── .gitignore              # Git ignore rules
-└── README.md               # This file
+## 📁 Project Structure
+
+| File | Description |
+|------|-------------|
+| `gmail_agent_real.py` | Main agent (reads, analyzes, acts) |
+| `dashboard.py` | Streamlit dashboard |
+| `agent_rules.json` | Your custom rules |
+| `requirements.txt` | Python dependencies |
+| `.gitignore` | Git ignore rules |
+| `README.md` | This file |
 
 
 ## 🚀 How It Works
 
-┌──────────────┐
-│   Gmail      │
-│   Inbox      │
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│  Gmail API   │ ← Fetches unread emails
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│  Claude AI   │ ← Analyzes each email
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│   Decision   │
-└──────┬───────┘
-│
-┌───┴───┬─────────┐
-│       │         │
-▼       ▼         ▼
-┌─────┐ ┌──────┐ ┌───────┐
-│Alert│ │Reply │ │Ignore │
-└──┬──┘ └──────┘ └───────┘
-│
-▼
-┌──────────────┐
-│  WhatsApp    │ ← Notifies user
-└──────────────┘
+## 🚀 How It Works
+
+```mermaid
+graph TD
+    A[Gmail Inbox] --> B[Gmail API]
+    B --> C[Claude AI Analysis]
+    C --> D{Decision}
+    D -->|Important| E[🚨 WhatsApp Alert]
+    D -->|Low Priority| F[✅ Auto-Reply]
+    D -->|Spam| G[🗑️ Mark as Read]
+    E --> H[User Notified]
+    F --> I[Email Replied]
+    G --> J[Inbox Clean]
+```
 
 ## ⚙️ Setup
 
