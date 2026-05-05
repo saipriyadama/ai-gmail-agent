@@ -216,7 +216,7 @@ MIT License - feel free to use this for personal projects
 
 ## 📞 Connect
 
-- GitHub: [@saipriyadama](https://github.com/YOUR_USERNAME)
+- GitHub: [saipriyadama](https://github.com/saipriyadama)
 - LinkedIn: [sai priya](www.linkedin.com/in/sai-priya-a-60093b1b4)
 
 ## 🌟 Star this repo if you find it useful!
